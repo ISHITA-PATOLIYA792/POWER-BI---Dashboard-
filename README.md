@@ -5,6 +5,8 @@ This project contains a crime dashboard (built in Power BI and streamlit) for an
 ## dashboard preview
 
 ![dashboard screenshot](images/dashboard.png)
+![dashboard screenshot](images/dashboard.png)
+![dashboard screenshot](images/dashboard.png)
 
 ## key features
 
