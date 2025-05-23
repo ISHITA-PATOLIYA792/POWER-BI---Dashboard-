@@ -1,25 +1,56 @@
-# Crime Dashboard (Power BI & Streamlit)
+# 🕵️‍♀️ Crime Dashboard - 2022 Analysis 📊
 
-This project contains a crime dashboard (built in Power BI and streamlit) for analyzing crime data (2022). The dashboard (or its screenshot) is available in the "images" folder.
+Welcome to the **Crime Dashboard Project**, a powerful and visually compelling tool built using **Power BI** and **Streamlit** for analyzing crime data from the year **2022**. This dashboard helps uncover trends, identify hotspots, and provide insightful crime statistics to aid better decision-making.
 
-## dashboard preview
+> 🚨 Dive into the data, explore crime patterns, and visualize incidents with just a few clicks!
 
-![dashboard screenshot](images/Screenshot 2025-05-23 121540.png)
-![dashboard screenshot](images/Screenshot 2025-05-23 121530.png)
-![dashboard screenshot](images/Screenshot 2025-05-23 121514.png)
+---
 
-## key features
+## 🌟 Dashboard Preview
 
-- custom color theme (orange/peach/black) for a modern look.
-- sidebar navigation (main, locality based, type exploration pages).
-- filters (crime type, location, arrest, domestic, month, date range).
-- kpi cards (total crimes, arrests, domestic crimes).
-- donut (top 5 crime types) and bar (top 5 location wise crime) charts.
-- line chart (crime by month & quarter).
-- treemap (top 5 wards) and map (crime hotspot) (if lat/lon data available).
+📷 Here’s a glimpse of the interactive dashboard:
 
-## Files
+![Dashboard Screenshot](images/Screenshot 2025-05-23 121514.png)
+![Dashboard Screenshot](images/Screenshot 2025-05-23 121530.png)
+![Dashboard Screenshot](images/Screenshot 2025-05-23 121540.png)
 
-- crime_data.csv – raw crime data (exported from Power BI).
-- crime_rate_analysis_2022.pbix – Power BI dashboard (pbix file).
-- (dashboard images) – stored in the "images" folder.
+---
+
+## 🚀 Key Features
+
+- 🎨 **Modern Custom Color Theme** (Orange / Peach / Black)
+- 📑 **Sidebar Navigation**  
+  → Main Dashboard  
+  → Locality-Based Analysis  
+  → Crime Type Exploration
+- 🧠 **Filters**: Crime Type, Location, Arrest Status, Domestic Involvement, Month, Date Range
+- 📊 **KPI Cards**:  
+  - Total Crimes  
+  - Arrests  
+  - Domestic Crimes
+- 🍩 **Charts**:  
+  - Donut Chart: Top 5 Crime Types  
+  - Bar Chart: Top 5 Locations by Crime
+- 📈 **Time Series**: Line Chart for Monthly & Quarterly Trends
+- 🌳 **Hierarchical View**: Treemap of Top 5 Wards
+- 🗺️ **Map Integration**: Crime Hotspot Visualization *(if lat/lon available)*
+
+---
+
+## 📁 Files Included
+
+| File/Folder Name                 | Description                                  |
+|----------------------------------|----------------------------------------------|
+| `crime_data.csv`                | Raw dataset exported from Power BI           |
+| `crime_rate_analysis_2022.pbix`| Interactive Power BI dashboard file          |
+| `images/`                       | Folder containing dashboard screenshots      |
+
+---
+
+## 📦 Setup & Usage
+
+To run the **Streamlit** version locally:
+
+```bash
+pip install streamlit pandas matplotlib
+streamlit run app.py
