@@ -10,7 +10,7 @@ Welcome to the **Crime Dashboard Project**, a powerful and visually compelling t
 
 📷 Here’s a glimpse of the interactive dashboard:
 
-![Dashboard Screenshot](images/Screenshot 2025-05-23 121514.png)
+![Dashboard Screenshot](images/Screenshot_2025-05-23_121514.png)
 ![Dashboard Screenshot](images/Screenshot 2025-05-23 121530.png)
 ![Dashboard Screenshot](images/Screenshot 2025-05-23 121540.png)
 
